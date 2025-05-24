@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Meu portfólio</title>
+</head>
+
+<body>
+  <header class="container text-center">
+    <img src="img/icone avatar.jpg" alt="avatar" class="rounded-circle" width="150" height="150" srcset="">
+    <p class="lead">Eu sou Thais Fernanda</p>
+    <h1>Eu estudo Programação</h1>
+    <p>Sou estudante da 3ªsérie do Ensino Médio, estudo programação com os cursos do Alura, desde o ano passado. Veja os
+      projetos que já desenvolvi!</p>
+    <p>Minhas habilidades</p>
+    <div>
+      <p class="badge bg-secondary">HTML</p>
+      <p class="badge bg-secondary">CSS</p>
+      <p class="badge bg-secondary">JavaScript</p>
+      <p class="badge bg-secondary">Scratch</p>
+    </div>
+  </header>
+  <main class="container mt-5">
+    <h2>Meus projetos</h2>
+    <div class="row">
+      <!-- Projeto 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/projeto-1.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+          <div class="card-body">
+            <h5 class="card-title">Menu de uma padaria: Uma Webpage Personalizada</h5>
+            <p class="card-text">Este projeto é uma página web que apresenta o menu de uma padaria, deselvonvi
+              este site para a apresentação de um trabalho escolar. A página é estilizada com CSS para uma visualização
+              agradável e usa fontes
+              externas do Google Fonts.
+            </p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+              o projeto</button>
+          </div>
+        </div>
+      </div>
+      <!-- Projeto 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/projeto 2.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+          <div class="card-body">
+            <h5 class="card-title">Site compra de cursos: Uma nova forma de aprendizagem
+            </h5>
+            <p class="card-text">Este projeto foi um protótipo de como seria a criação de um site que vende curso.
+              Também
+              foi feito para apresentação de um trabalho escolar.
+            </p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+              o projeto</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/projeto 3.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+          <div class="card-body">
+            <h5 class="card-title">Contagem regressiva: Uma Aventura até o natal
+            </h5>
+            <p class="card-text">Este projeto contém uma contagem regrassiva para o natal do ano atual. Também fornece
+              receitas
+              tradicionais e natalinas.
+            </p>
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+              o projeto</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal 1 -->
+  <div class="modal" id="modal1" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Menu de uma padaria: Uma Webpage Personalizada</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>O projeto consiste em uma página web desenvolvida com HTML e CSS, criada para apresentar o menu de uma
+            padaria como parte de um trabalho escolar. O objetivo é construir um ambiente virtual onde seja possível
+            exibir os principais produtos da padaria, fornecendo uma breve descrição de cada item, incluindo o nome, o
+            preço e uma imagem ilustrativa.</p>
+          <p>A estrutura do site é baseada em HTML, responsável por definir a organização e o layout do conteúdo,
+            enquanto o CSS é utilizado para estilizar a página, cuidando das cores, da tipografia e da disposição visual
+            dos elementos.</p>
+          <p>O HTML organiza o conteúdo com um cabeçalho contendo o nome da padaria, seguido por uma seção principal
+            (.container) que apresenta a proposta do site e o cardápio em uma área flexível (.menu). Cada produto é
+            destacado em seu próprio bloco (.item), exibindo uma imagem, as informações sobre o item e o valor. O design
+            responsivo é garantido com o uso da meta tag viewport e de um layout adaptável, que se ajusta a diferentes
+            tamanhos de tela.</p>
+          <p>O CSS personaliza a aparência do site, utilizando variáveis de cores, fontes importadas do Google Fonts e
+            aplicando um esquema visual agradável, com botões interativos para facilitar a navegação. O uso de HTML e
+            CSS permite criar um site acessível, funcional e atrativo, focado na usabilidade e na boa experiência do
+            usuário. A escolha cuidadosa da tipografia e das cores reforça o aspecto acolhedor e convidativo da padaria,
+            incentivando as pessoas a conhecerem o menu.</p>
+          <img src="img/projeto-1.jpeg" class="img-fluid w-100"
+            alt="Imagem representativa do projeto de uma biblioteca online">
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/taathaisss/Padaria-6-irma-s.git">Ver código do projeto</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 2 -->
+  <div class="modal" id="modal2" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Site compra de cursos: Uma nova forma de aprendizagem</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>O projeto consiste em uma página web desenvolvida com HTML e CSS, criada para apresentar uma plataforma de
+            venda de cursos de estudos como parte de um trabalho escolar. O objetivo é construir um ambiente virtual
+            onde seja possível divulgar diversos cursos, oferecendo informações importantes sobre cada um, como o
+            título, a descrição, o valor e um link para matrícula.
+          </p>
+          <p>A estrutura do site foi elaborada com HTML, responsável por definir a organização e o layout do conteúdo,
+            enquanto o CSS foi utilizado para estilizar a página, cuidando da harmonia visual através de cores,
+            tipografia e disposição dos elementos.</p>
+          <p>O HTML organiza o conteúdo com um cabeçalho que apresenta o nome da plataforma, seguido por uma seção
+            principal (.container) onde está a proposta do site e a lista de cursos disponíveis em uma área flexível
+            (.cursos). Cada curso é destacado em seu próprio bloco (.curso), contendo uma imagem ilustrativa,
+            informações detalhadas e um botão que direciona para a matrícula. O design responsivo é garantido pelo uso
+            da meta tag viewport e de um layout que se adapta bem a diferentes tamanhos de tela.</p>
+          <p>O CSS personaliza o visual do site, utilizando variáveis para padronizar cores, fontes importadas do Google
+            Fonts para uma melhor legibilidade e botões interativos que facilitam a navegação. A escolha do HTML e CSS
+            permite criar um site funcional, acessível e atrativo, com foco na usabilidade e na experiência positiva da
+            pessoa usuária. A seleção das cores e da tipografia contribui para transmitir uma imagem profissional e
+            confiável, incentivando a exploração dos cursos disponíveis.
+          </p>
+          <img src="img/projeto 2.jpeg" class="img-fluid w-100"
+            alt="Imagem representativa do projeto de uma biblioteca online">
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/taathaisss/Venda-de-cursos.git">Ver código do
+            projeto</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="modal" id="modal3" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contagem regressiva: Uma Aventura até o natal</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>O projeto consiste em uma página web desenvolvida com HTML, CSS e um pouco de JavaScript, criada para
+            apresentar uma contagem regressiva até o Natal do ano, juntamente com receitas tradicionais natalinas, como
+            parte de um trabalho escolar. O objetivo é construir um ambiente virtual temático, que desperte o espírito
+            natalino e ofereça sugestões de receitas típicas para celebrar a data.</p>
+          <p>A estrutura do site é organizada com HTML, que define o layout e a hierarquia do conteúdo, enquanto o CSS é
+            responsável pela estilização, aplicando cores, fontes e elementos decorativos relacionados ao Natal. Além
+            disso, o JavaScript é utilizado para implementar a funcionalidade da contagem regressiva, exibindo
+            dinamicamente o tempo restante até o Natal.</p>
+          <p>O CSS personaliza a aparência do site com um esquema de cores natalinas, como vermelho, verde e dourado,
+            fontes decorativas importadas do Google Fonts, além de botões interativos que incentivam a exploração das
+            receitas. A combinação de HTML, CSS e JavaScript permite criar um site funcional, acessível e visualmente
+            atrativo, focado na experiência da pessoa usuária. A escolha cuidadosa da tipografia e das cores reforça o
+            clima acolhedor e festivo do Natal, tornando o site uma ferramenta divertida e informativa para quem deseja
+            acompanhar a chegada da data e preparar receitas típicas em família.</p>
+          <img src="img/projeto 3.jpeg" alt="Projeto 3" class="img-fluid w-100">
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/taathaisss/Contagem-Natalina.git">Ver código do projeto</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="container py-5">
+    <h2>Entre em contato</h2>
+    <div>
+      <i class="bi bi-github"></i>
+      <a href="https://github.com/taathaisss">GitHub</a>
+    </div>
+    <p class="my-5 text-center">© Copyright 2024. Produzido por Thais Souza</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
